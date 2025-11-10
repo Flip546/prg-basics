@@ -4,15 +4,22 @@
 # and two numbers. The program should perform the appropriate
 # mathematical operation on the given numbers and return the result.   
 # 
-number1 = int(input('Enter number:')) 
-number2 = int(input('Enter second number:')) 
-operator = int(input('Enter operator(*,/,-,+):') 
+number1 = float(input('Enter number:')) 
+number2 = float(input('Enter second number:')) 
+operator = (input('Enter operator(*,/,-,+): ')) 
 
-if operator == *:
+if operator == '*':
     result = number1*number2
-elif ...
-...
-...
+elif operator =='/':
+    result = number1/number2
+elif operator =='+':
+    result = number1 + number2
+elif operator =='-':
+    result = number1 - number2
+else:
+    print('Enter correct operator')
+
+
 
 # print result
 print(f'{number1} {operator} {number2} = {result}')
