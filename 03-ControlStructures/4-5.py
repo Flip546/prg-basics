@@ -1,4 +1,4 @@
-###
+##
 # Encrypts text using Caesar Code, shifting each letter
 # in the alphabet right one position
 #
@@ -8,13 +8,13 @@ encrypted_text = ''
 for char in plain_text:
     # read the character's code (use ord())
     char_code = ord(char)
-    # add one to the character's ode
-    newc_code = char_code + 1
+    # add one to the character's code
+    new_code = char_code + 1
     # replace new character code with its
-    encrypted_char = chr(new_code)
     # corresponding character (use chr())
-    encrypted_text += encrypted_char
+    encrypted_char = chr(new_code)
     # add encrypted character to encrypted text
-    ...
-print(f"plain text: {plain_text}")
-print(f"encrypted_text: {encrypted_text}")
+    encrypted_text += encrypted_char
+
+print(f'plain_text: {plain_text}')
+print(f'encrypted_text: {encrypted_text}')
