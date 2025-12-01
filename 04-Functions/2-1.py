@@ -14,10 +14,10 @@ letter = input('Enter something one sign: ')
 print(f'The letter is {letter}')
 
 number_ = int(20303)
-print(f'number is number_')
+print(f'number is {number_}')
 
 binary = bin(304)
-print('304 in binary is (binary)')
+print(f'304 in binary is {binary}')
 
 hexadecim = hex(304)
 print(f'Hexadecimal number of 304 is {hexadecim}')
