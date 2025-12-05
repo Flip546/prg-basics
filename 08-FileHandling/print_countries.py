@@ -4,3 +4,7 @@
 with open('countries.txt', 'r') as file:
     for line in file:
         print(line, end="")
+
+        for i in line:
+
+            print(f'{i}')
