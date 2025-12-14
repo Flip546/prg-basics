@@ -10,5 +10,6 @@ job_title = 'Software Engineer'
 
 with open('it_company.csv', 'r') as file:
    for line in file:
-      if job_title in file:
-         print (job_title)
+      if job_title in line :
+         print(line.strip())
+         

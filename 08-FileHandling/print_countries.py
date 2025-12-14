@@ -2,9 +2,13 @@
 # Reads from file, line by line
 #
 with open('countries.txt', 'r') as file:
-    for line in file:
-        print(line, end="")
+    for i in range(5):
+     
+     for line in file:
+      i += 1
+        
+           
 
-        for i in line:
+      print(f"{i}. {line}",end="")
 
-            print(f'{i}')
+       

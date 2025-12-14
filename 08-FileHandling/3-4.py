@@ -7,7 +7,7 @@ import re # module for regular expressions
 email_file = 'report.txt'
 
 # read the content of email
-with open('report.txt' 'r') as file:
+with open('report.txt','r') as file:
   content = file.read()
 
 email = content
@@ -23,7 +23,7 @@ amounts = re.findall(pattern, email)
 # calculate the total purchases
 amount = 0
 for amount in amounts:
-   amount =+ pattern
+   amount += pattern
 
 # print result
 print(amount)
