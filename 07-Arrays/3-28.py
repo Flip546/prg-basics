@@ -4,16 +4,18 @@ array = [
 [3 ,8, 6, 4, 7],
 [8 ,7 ,1, 1 ,5]
 ]
-
-count = 0
 suma = 0
-for wiersz in array:
- count += 1
- for liczba in wiersz:
-  if count == 4:
-   suma += liczba
-   
-  
+
+for i in array:
+    for j in i:
+        if j == i[-1]:
+            suma += j
 
 print(suma)
+        
+
+
+  
+
+
   
