@@ -14,16 +14,16 @@ email = content
 
 # regular expression pattern
 # for amounts
-pattern = r'\d+'
+pattern = '\d+'
 
 # extract numbers from email
 # tip: findall() method returns an array
 amounts = re.findall(pattern, email)
 
 # calculate the total purchases
-amount = 0
+sum = 0
 for amount in amounts:
-   amount += pattern
+   sum += int(amount)
 
 # print result
-print(amount)
+print(sum)
