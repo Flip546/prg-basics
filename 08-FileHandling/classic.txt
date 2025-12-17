@@ -1,0 +1,9 @@
+Name: The Great Gatsby
+Author: F. Scott Fitzgerald
+Year: 1925
+Name: Great Expectations
+Author: Charles Dickens
+Year: 1861
+Name: Of Mice and Men
+Author: John Steinbeck
+Year: 1937

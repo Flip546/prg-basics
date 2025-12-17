@@ -1,0 +1,21 @@
+Name: War and Peace
+Author: Leo Tolstoy
+Year: 1869
+Name: Les Misérables
+Author: Victor Hugo
+Year: 1862
+Name: The Grapes of Wrath
+Author: John Steinbeck
+Year: 1939
+Name: A Tale of Two Cities
+Author: Charles Dickens
+Year: 1859
+Name: Gone with the Wind
+Author: Margaret Mitchell
+Year: 1936
+Name: Beloved
+Author: Toni Morrison
+Year: 1987
+Name: The Kite Runner
+Author: Khaled Hosseini
+Year: 2003
