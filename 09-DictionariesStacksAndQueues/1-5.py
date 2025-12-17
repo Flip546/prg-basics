@@ -5,5 +5,8 @@ countries = [
 {"name":"Germany","population":213412},
 {"name":"Latwia","population":3902123},
 ]
-
-print(F'NAME:{countries("name")}, Population:{countries("population")}')
+print('Country     Population')
+for i in countries:
+    name = i['name']
+    pop = i['population']
+    print(f'{name:<12}{pop}')
